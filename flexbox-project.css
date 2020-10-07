@@ -1,4 +1,36 @@
 /* Write your CSS here. */
+@media screen and (max-width: 730px) {
+  /* Hide the header search input field. */
+  /* Hide the "Boards" text, but leave the boards icon. */
+}
+
+
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Noto Sans', 'Ubuntu', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  font-size: 14px;
+  margin: 0;
+}
+.header-nav__container {
+  background-color: #026AA7;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 4px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.header-nav__group {
+  display: flex;
+  width: 33%;
+  padding: 2px 0px;
+}
+.header-nav__group:last-child {
+  justify-content: flex-end;
+}
+#alerts {
+  background-color: #CF513D;
+}
+
 
 
 
